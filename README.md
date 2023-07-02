@@ -1,9 +1,9 @@
 # Fetch Backend Takehome Exercise (Receipt-processor)
 
-Build a webservice that fulfils the documented API. You can find the specific requirements under Receipt-Processor-Instruction.md.
+Build a webservice that fulfils the documented API. You can find the specific requirements under Receipt-Processor-Instruction.md. <br/>
 The backend service for receipt processor was built with Flask and python. You can find the detailed code in app.py. The backend service is tested with unit_tests.py and you can find some tested JSON queries under /examples. 
 
-## Local Setup and Testing- Without Docker
+## Local Setup and Testing Without Docker
 1. Clone the repository: 
 
 ```bash
@@ -35,11 +35,10 @@ The backend service for receipt processor was built with Flask and python. You c
 
 6. You can utilize Postman for mocking GET/POST JSON query to http://127.0.0.1:5000/receipts/process and http://127.0.0.1:5000/receipts/{id}/points where id is the response value. 
 ![Screenshot](POSTquery.png)
-<br />
 ![Screenshot](GETquery.png)
 
 
-## Local Setup and Testing- With Docker
+## Local Setup and Testing With Docker
 1. Clone the repository: 
 
 ```bash
